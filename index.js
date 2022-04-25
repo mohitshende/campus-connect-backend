@@ -30,7 +30,7 @@ app.use(morgan("common"));
 app.use("/api/users", userRoute);
 app.use("/api/auth", authRoute);
 app.use("/api/posts", postRoute);
-// app.use("/api/deptposts", deptPostRoute);
+app.use("/api/deptPosts", deptPostRoute);
 // app.use("/api/notices", noticesRoute);
 
 app.listen(8000, () => {

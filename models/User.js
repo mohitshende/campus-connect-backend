@@ -43,7 +43,7 @@ const UserSchema = new mongoose.Schema(
       default: [],
     },
     role: {
-      type: String, //TODO:Change this field to Role: (Student,Faculty,Admin)
+      type: String,
       default: "Student",
     },
     desc: {
